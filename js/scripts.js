@@ -1,17 +1,4 @@
-alert('Hello World');
-
-let myName ='Bob';
-document.write(myName);
-myName = 'John Doe';
-document.write(myName);
-
-let simpleAdditon = 2 + 2;
-document.write(simpleAdditon);
-
-let size = 100;
-let doubleSize = size * 2;
-let minSize = (doubleSize * 2) - (size / 2);
-document.write(minSize);
-
-let favoriteFood = 'Mango';
-document.write(favoriteFood);
+pokemonList = [
+  {name: "Bulbasaur", height: 7, types: ["grass", "poison"]},
+  {name: "Caterpie", height: 0.3, types: ["bug"]},
+  {name: "Beedrill", height: 1, types: ["bug", "poison"]}]
